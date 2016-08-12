@@ -1,0 +1,20 @@
+{
+  "server": {
+		"host": "localhost",
+		"port": 3000
+	},
+  "gulp": {
+
+		"watched": {
+			"css": [
+				"css/"
+			],
+			"js": [
+        "core/"
+			]
+		}
+	},
+  "session": {
+		"secret": "ngFOmdPuj73WUGnk4d3a5XvZWIa310baH5Qii9SCTbsET78NzA2M40m7nnALWgxH"
+	}
+}

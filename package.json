@@ -1,0 +1,48 @@
+{
+  "name": "electron-express",
+  "version": "1.0.0",
+  "description": "This is a light weight integration of the express framework, with an electron application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theallmightyjohnmanning/electron-express.git"
+  },
+  "keywords": [
+    "electron",
+    "express",
+    "electron-express",
+    "electron",
+    "express"
+  ],
+  "author": "John Manning",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/theallmightyjohnmanning/electron-express/issues"
+  },
+  "homepage": "https://github.com/theallmightyjohnmanning/electron-express#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.0"
+  },
+  "devDependencies": {
+    "bower-webpack-plugin": "^0.1.9",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webpack": "^1.5.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "webpack": "^1.13.1"
+  }
+}

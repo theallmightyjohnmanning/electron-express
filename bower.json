@@ -1,0 +1,29 @@
+{
+  "name": "electron-express",
+  "description": "This is a light weight integration of the express framework, with an electron application.",
+  "main": "main.js",
+  "authors": [
+    "John Manning"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "electron",
+    "express",
+    "electron-express",
+    "electron",
+    "express"
+  ],
+  "homepage": "https://github.com/theallmightyjohnmanning/electron-express",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "2"
+  }
+}
