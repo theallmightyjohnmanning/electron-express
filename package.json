@@ -5,6 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron main",
+    "bower": "bower install",
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,11 +30,13 @@
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",
     "connect-flash": "^0.1.1",
+    "electron-prebuilt": "^1.4.13",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.14.0"
   },
   "devDependencies": {
+    "bower": "^1.8.0",
     "bower-webpack-plugin": "^0.1.9",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.1",
