@@ -7,6 +7,7 @@
     "start": "electron main",
     "bower": "bower install",
     "gulp": "gulp",
+    "sass": "gulp compile-sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
